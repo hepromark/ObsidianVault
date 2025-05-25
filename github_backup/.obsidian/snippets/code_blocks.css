@@ -1,0 +1,17 @@
+/* Change background color of code blocks */
+.code-block {
+    background-color: #2e3440; /* Replace with your desired background color */
+    color: #e9d8e1; /* Replace with your desired text color */
+    border-radius: 8px; /* Optional: Rounded corners */
+    padding: 10px; /* Optional: Add padding */
+  }
+  
+  /* Change inline code style */
+  .cm-inline-code {
+    background-color: #434c5e; /* Replace with your desired background color */
+    color: #eceff4; /* Replace with your desired text color */
+    border-radius: 4px; /* Optional: Rounded corners */
+    padding: 2px 4px; /* Optional: Add padding */
+    font-family: monospace; /* Ensure a monospace font for inline code */
+  }
+  
