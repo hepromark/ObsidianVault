@@ -1,11 +1,15 @@
 ### TCS - Traction Control System
 
-**How it works**
+**Overview**
 - Prevents wheel slip during acceleration
-- Detects if a wheel is spinning faster than others, then counter it:
-	- Reduce engine power
-	- Braking the spinning wheel
+- Detects if a wheel is spinning faster than others, then counter it
 - Default ON unless going on special terrain where wheels expected to slip
+
+Intervention from one or more of:
+- Brake force applied to wheel (ABS side)
+- Reduced engine power (EV)
+- Some way to reduce piston output (less fuel, spark suppression, etc.) in gas cars
+
 
 **Sub-modes (Model Y)**
 - Slippery surface: distributes traction evenly across all tires to provide more traction & stability in snow/ice/etc.

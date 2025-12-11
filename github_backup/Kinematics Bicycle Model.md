@@ -10,3 +10,4 @@ Instantaneous center of rotation (ICR)
 ![[Untitled (7).png]]
 
 The Bicycle Model simplifies this into 2 wheels, with no slipping.
+

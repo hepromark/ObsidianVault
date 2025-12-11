@@ -30,10 +30,49 @@ Sample Intern Projects:
 
 2. Embedded Systems
 	1. Sensor Interfacing
-	2. Protocols
+	2. Protocols -> [[Embedded Protocols]]
 
 3. SLAM methods
-	1. EKF to fuse GPS, IMU, etc.
+	1. EKF to fuse GPS, IMU, etc. -> [[Simultaneous Localization and Mapping]]
 	2. Marine-specific SLAM methods
-### Interviewer Notes
+	
+### Interviewer Notes - April Blaylock
+
+Background:
+- Robotic Developer -> Unmanned Aerial Eng
+- Vision System Arch -> Sr. Principal Aerial Systems Arch
+- Staff Autonomy Systems Arch 
+- Analyst?
+- Co-Founder enVgo
+
+Personality
+- Passionate about Autonomy
+	- Vietnam pollution & how it can be mitigated w/ autonomous vehicles
+	
+- Architectural level experience
+	- Say how I enjoy system design / architecture over the implementation
+	- I designed systems in my last startup internship
+	- Joined F1Tenth to be able to define the architecture & software direction
+	
+
+
+### Marine Industry
+
+**4 levels of autonomy**
+1. Ships w/ automated process & decision support. Some operations may be automated & unsupervised, but human control can be taken
+
+2. Remotely controlled ship w/ people onboard. Controlled and operated remotely, but human onboard control can still be taken
+
+3. Remotely controlled ship without seafarers on board.
+
+4. Fully autonomous ship. Operating system of ship able to make decisions and determine actions by itself.
+
+
+**Sonars**
+- Essentially underwater lidar in-terms of data type & operating principle
+- Gives direction + range (depthmap)
+- Uses sound waves instead of laser
+- Used to measure height from ocean floor, mapping surround area, or foward-facing sonars for obstacle avoidance
+
+
 

@@ -1,4 +1,4 @@
-[[2025 Plans]]
+[[2025 Career Plans]]
 ## [[MATH 237]]
 
 ## [[SE 350]]

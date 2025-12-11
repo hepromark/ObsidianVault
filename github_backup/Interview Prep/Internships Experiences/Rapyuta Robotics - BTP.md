@@ -28,8 +28,11 @@ Cons
 4. Breakdown of large tasks into smaller tasks makes end-to-end optimization methods unviable. Instead of tackling the optimization problem holistically (multi-stage scheduling problem), the broken-down nature of the database object means that multiple single-stage optimization problems are present instead. 
 #### Scheduling Problem
 [[Optimal Job Scheduling]]
-
+[[Game Engine Scheduling]]
 [[Distributed Computing]]
+
+BTP's Task Trees
+
 
 ### Fallback Behaviours
 
@@ -53,3 +56,5 @@ Cons
 	- Re-enables after some timeout
 
 5. Bin overflow
+	- Bins may be full from too many items, at which point the worker can request for a secondary bin to arrive
+	- Both bins are treated as a 'single' entity -> they should come to dropoff points together, queue together, etc.

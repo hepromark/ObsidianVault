@@ -2,13 +2,19 @@
 
 #### **Software**
 [[Automatic Emergency Breaking]]
-[[Motion Planning]]
+[[Lattice Planner]]
 [[Simultaneous Localization and Mapping]]
 [[F1Tenth Software Architecture]]
 [[F1Tenth Software Setup]]
 
 #### **Lead Stuff**
 [[Project Planning F1Tenth]]
+
+#### **TODOs**
+- Review PRs: https://github.com/WATonomous/wato_f1tenth/pull/24
+- Merge path planning & control
+- Order remaining 3 items
+- Get my money fucking back bruh
 
 #### **Links**
 - Course Syllabus: https://docs.google.com/spreadsheets/d/1PaFYG7XC_XQ3ExdQGb-S8oJzzixoMOVjh4L1RjW0gT0/edit?gid=0#gid=0

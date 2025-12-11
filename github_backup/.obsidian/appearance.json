@@ -1,6 +1,8 @@
 {
   "theme": "moonstone",
-  "baseFontSize": 18,
+  "baseFontSize": 30,
   "baseFontSizeAction": true,
-  "cssTheme": "Primary"
+  "cssTheme": "Obsidian Nord",
+  "showViewHeader": false,
+  "showRibbon": false
 }

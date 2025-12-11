@@ -1,130 +1,42 @@
 {
   "main": {
-    "id": "f5aa717fd93eefc6",
+    "id": "59530e29b68a9c6d",
     "type": "split",
     "children": [
       {
-        "id": "aa882d7f391fa09f",
+        "id": "d57c77935bf0ad1d",
         "type": "tabs",
         "children": [
           {
-            "id": "23b3cd8036de51b8",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3A Goals.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "3A Goals"
-            }
-          },
-          {
-            "id": "8e4254df28753220",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "F1Tenth/F1-Tenth.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "F1-Tenth"
-            }
-          },
-          {
-            "id": "1d9ed8425087f38c",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interview Prep/Interviews/Traction and Stability Control Engineer Internship.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Traction and Stability Control Engineer Internship"
-            }
-          },
-          {
-            "id": "8975754fc0d2bbef",
+            "id": "1a4021b38d113174",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tesla Safety Systems.md",
+                "file": "Interview Prep/Resume Deep Dive.md",
                 "mode": "source",
                 "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Tesla Safety Systems"
+              "title": "Resume Deep Dive"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "74fe0a66e3afab01",
+    "id": "0acb996c577f0383",
     "type": "split",
     "children": [
       {
-        "id": "bb4577f726f978ff",
+        "id": "86889915485f65ae",
         "type": "tabs",
         "children": [
           {
-            "id": "2ed904ef1781cce1",
+            "id": "3ffedf3604cd8d91",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -137,12 +49,12 @@
             }
           },
           {
-            "id": "03b28c7afb1d64b4",
+            "id": "f0eb33a81188ec37",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "thread",
+                "query": "I2C",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -154,7 +66,7 @@
             }
           },
           {
-            "id": "a3c94f895cf016da",
+            "id": "4df1c428f7248244",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -170,78 +82,66 @@
     "width": 300
   },
   "right": {
-    "id": "9d16fe0a9afab051",
+    "id": "c183015f28f86128",
     "type": "split",
     "children": [
       {
-        "id": "22171b835a69fe0c",
+        "id": "5132b9a5157ee873",
         "type": "tabs",
-        "dimension": 47.69736842105263,
         "children": [
           {
-            "id": "93d3a34e220a879b",
+            "id": "00cb2b48e469fabe",
             "type": "leaf",
             "state": {
-              "type": "localgraph",
+              "type": "outgoing-link",
               "state": {
-                "file": "2B Courses Tracker.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.6715736087144714,
-                  "close": true
-                }
+                "file": "Interview Prep/Interviews/Simulation Engineering Intern Zipline.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               },
-              "icon": "lucide-git-fork",
-              "title": "Graph of 2B Courses Tracker"
+              "icon": "links-going-out",
+              "title": "Outgoing links from Simulation Engineering Intern Zipline"
             }
           },
           {
-            "id": "1e39337277028692",
+            "id": "b555cc6ef8fc9c17",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "03f57a5054a500e2",
-        "type": "tabs",
-        "dimension": 52.30263157894737,
-        "children": [
+          },
           {
-            "id": "210d223388045183",
+            "id": "17974b96d40d0b18",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Interview Prep/Interviews/Simulation Engineering Intern Zipline.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Simulation Engineering Intern Zipline"
+            }
+          },
+          {
+            "id": "45bbdd87e29bb598",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B Courses Tracker.md",
+                "file": "RL Course.md",
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -249,57 +149,20 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2B Courses Tracker"
-            }
-          },
-          {
-            "id": "3a44d14f69b6e5a1",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Scheduling Problem.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Scheduling Problem"
-            }
-          },
-          {
-            "id": "70ae57ce663951a9",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "ca5610332b2b5c33",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "2B Courses Tracker.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of 2B Courses Tracker"
+              "title": "Backlinks for RL Course"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 405.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -308,55 +171,47 @@
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-full-calendar:Open Full Calendar": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "1d9ed8425087f38c",
+  "active": "1a4021b38d113174",
   "lastOpenFiles": [
-    "Modern C++.md",
-    "Interview Prep/Interviews/Traction and Stability Control Engineer Internship.md",
-    "F1Tenth/F1-Tenth.md",
-    "Tesla Safety Systems.md",
-    "Pasted image 20250524144906.png",
-    "Pasted image 20250524144904.png",
-    "Pasted image 20250524144552.png",
-    "Pasted image 20250524144517.png",
-    "Automotive Chassis Control Technology.md",
-    "Daily Notes/2025-05-24.md",
-    "Daily Notes/2025-05-23.md",
-    "Interview Prep/Interviews/Perception Developer Co-op (SLAM).md",
-    "F1Tenth/F1Tenth Reactive Methods for Navigation.md",
-    "Interview Prep/Behavioural.md",
-    "Robotics/Simultaneous Localization and Mapping.md",
-    "Untitled 1/SE 350 Lab 2.md",
-    "2025-04-22 ME 303 Exam.md",
-    "2025-05-15.md",
-    "Interview Prep/Cofee Chats/Profile - Jan Bakus.md",
-    "LeetCode.md",
-    "Interview Prep/Cofee Chats",
-    "Untitled 1",
-    "Untitled 1/SE 350 Lab 3.md",
-    "F1Tenth/F1Tenth Interview.md",
-    "F1Tenth/F1Tenth Motion Planning.md",
-    "Scan Matching.md",
-    "Untitled",
-    "Pose Graph Optimization.md",
-    "Loop Closure.md",
-    "Untitled 11.md",
-    "Pasted image 20250522185652.png",
-    "Daily Notes/2025-05-22.md",
-    "Interview Prep/Interviews/Autonomy Software Developer.md",
-    "Pasted image 20250520194720.png",
-    "Interview Prep/Interviews",
-    "Daily Notes",
-    "templates",
-    "Pasted image 20250503222653.png",
-    "Pasted image 20250414121303.png",
-    "Pasted image 20250414121203.png",
-    "Pasted image 20250406152809.png",
-    "Calendar",
-    "Interview Prep/Projects",
-    "Interview Prep/Design Team Experiences",
-    "Interview Prep"
+    "Daily Notes/2025-11-30.md",
+    "Interview Prep/Resume Deep Dive.md",
+    "Daily Notes/2025-11-28.md",
+    "Kalman Filters.md",
+    "Daily Notes/2025-11-27.md",
+    "Pasted image 20251126155739.png",
+    "Daily Notes/2025-11-26.md",
+    "Interview Prep/Cofee Chats/Profile - Jonathan Pyke.md",
+    "Daily Notes/2025-11-25.md",
+    "Daily Notes/2025-11-22.md",
+    "Pasted image 20251122130524.png",
+    "Untitled 6.md",
+    "Untitled 5.md",
+    "Interview Prep/Interviews/Cleo Robotics Chat.md",
+    "Daily Notes/2025-11-07.md",
+    "Pasted image 20251102124053.png",
+    "Pasted image 20251102124035.png",
+    "Pasted image 20251102122750.png",
+    "Untitled 4.md",
+    "Humanoid Robotics.md",
+    "Cold Email List.md",
+    "3A COOP Todos.md",
+    "Daily Notes/2025-11-02.md",
+    "Daily Notes/2025-10-04.md",
+    "Cold Email List New.md",
+    "NEPO LIST (new).md",
+    "Daily Notes/2025-09-06.md",
+    "3A Todos.md",
+    "RL Course.md",
+    "Daily Notes/2025-08-21.md",
+    "Daily Notes/2025-08-14.md",
+    "Pasted image 20250722214518.png",
+    "Pasted image 20250722214455.png",
+    "Pasted image 20250717032128.png",
+    "Pasted image 20250716194429.png",
+    "Pasted image 20250716194205.png"
   ]
 }

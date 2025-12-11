@@ -1,3 +1,5 @@
+Newer one: [[Cold Email List New]]
+
 | Name                                                                                                      | Company           | Notes                 | Email                        | Sent?                      |
 | --------------------------------------------------------------------------------------------------------- | ----------------- | --------------------- | ---------------------------- | -------------------------- |
 | [Tom Kendal](https://www.linkedin.com/in/tom-kendall-1a732b61/overlay/about-this-profile/)                | Inevitable Tech   | VP of Engineering     | tom@inevitabletech.com       |                            |

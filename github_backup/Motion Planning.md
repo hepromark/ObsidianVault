@@ -55,28 +55,75 @@ A subspace of free space which denotes where we want the robot to move to.
 
 ### Algorithms
 
-==**Completeness**==: Algorithms are complete if
+**Completeness**: Algorithms are complete if
 - Terminate in finite time
 - Returns solution if once exists / returns failure otherwise
 
-==**Optimal**:== Algorithms are optimal if:
+**Optimal**: Algorithms are optimal if:
 - Returns the minimum cost solution when a solution exists
 
 There exists complete algorithms for motion planning, but:
 - Not practical (ex: exponential time complexity)
 - Real algorithms relaxes completeness guarantees somehow
 
-==The core idea is:==
+The core idea is:
 - We want to convert the *formal problem* into a *search problem*
 - i.e. create representations of the actual problem, then use search as the last step to find a solution
 - We want to "convert the *formal problem* into a *search problem*"
 
 
-Low dimensional problems can be solved with grid-based algorithms or geometric algorithms.
-- [[RRT]] 
+### Classical Motion Planning Algorithms
 
+Low dimensional problems can be solved with grid-based algorithms or geometric algorithms.
 High dimension problems may be computationally intractable:
 - Potential-field algorithms effect but affected by local minima
 - Sampling-based algorithms more promising (they are also currently considered SOTA) and apply well to higher (i.e. hundreds) dimensional problems
+#### Grid-based & Geometric
+- **A***: Classic graph search, good for low-dimensional, discrete spaces.
+- **Dijkstra’s Algorithm**: Like A*, but without heuristics.
+- **D*** and **D*-Lite**: Dynamic replanning, useful for environments that change.
+- **Lattice Planner**: Discretizes the configuration space, often used for car-like robots.
+#### Sampling-based
+- **RRT (Rapidly-exploring Random Tree)**: Efficiently explores high-dimensional spaces, good for car-like robots.
+- **RRT***: Asymptotically optimal version of RRT.
+- **PRM (Probabilistic Roadmap)**: Good for multi-query problems in static environments.
+#### Potential Field
+- **Artificial Potential Fields**: Simple, but can get stuck in local minima.
+
+### 2. Kinodynamic Motion Planning
+
+- **Kinodynamic RRT / RRT***: Considers vehicle dynamics (acceleration, turning radius, etc.), crucial for realistic RC car motion.
+- **Model Predictive Control (MPC)**: Optimizes a trajectory over a short horizon, considering dynamics and constraints.
+
+### 3. Reinforcement Learning (RL)-based Motion Planning
+
+#### Model-free RL
+- **Deep Q-Networks (DQN)**: For discrete action spaces.
+- **DDPG (Deep Deterministic Policy Gradient)**: For continuous control, suitable for steering/throttle.
+- **SAC (Soft Actor-Critic)**: State-of-the-art for continuous control, stable and sample-efficient.
+- **PPO (Proximal Policy Optimization)**: Robust, widely used in RL for robotics.
+
+#### Model-based RL
+- **MBPO (Model-Based Policy Optimization)**: Combines model learning with policy optimization for sample efficiency.
+
+#### Imitation Learning
+- **Behavioral Cloning**: Learn from expert demonstrations.
+- **DAgger (Dataset Aggregation)**: Iteratively improves by querying an expert.
+
+### 4. Hybrid Approaches
+- **RL + Classical Planner**: Use RL for local planning or policy refinement, with a classical planner for global pathfinding.
+- **Learning-based Sampling**: Use RL to bias sampling in RRT or PRM.
+
+---
+
+ Suggested Learning Path
+1. **Understand classical planners**: A*, RRT, Lattice Planner.
+2. **Implement a simple RRT or Lattice Planner** for your RC car’s kinematics.
+3. **Study kinodynamic planning**: How to incorporate car dynamics.
+4. **Learn RL basics**: DQN, DDPG, PPO, SAC.
+5. **Try RL for simple navigation tasks** in simulation (e.g., OpenAI Gym’s CarRacing-v0).
+6. **Combine RL with classical planning** for more robust solutions.
+
+
 
 [[F1Tenth Motion Planning]]
